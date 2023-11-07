@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 class TestTest{
 
     @Test
-    void IsYearDivicibleWith4ButNot100(){
+    void IsYearDivicibleWith4ButNot100Test(){
         LeapYear test1 = new LeapYear();
         Assertions.assertTrue(test1.IsLeapYear(16));
         Assertions.assertFalse(test1.IsLeapYear(100));
